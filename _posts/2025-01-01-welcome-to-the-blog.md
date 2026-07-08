@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to the blog"
-date:   2026-07-08 09:00:00 +0100
+date:   2025-01-01 09:00:00 +0100
 ---
 
 New blog, first post. Short one.
