@@ -12,3 +12,6 @@ twitter_username:   oxkunle
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-sitemap

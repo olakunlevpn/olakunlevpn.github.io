@@ -1,0 +1,8 @@
+---
+layout: null
+sitemap: false
+---
+User-agent: *
+Allow: /
+
+Sitemap: https://olakunlevpn.github.io/sitemap.xml
