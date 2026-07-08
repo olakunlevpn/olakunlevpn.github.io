@@ -1,6 +1,16 @@
-// Header nav
+// Header: title left, nav right
+.site-header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include media-query($on-palm) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
 .site-nav {
-    float: right;
     line-height: 56px;
 
     a {
@@ -13,9 +23,9 @@
     }
 
     @include media-query($on-palm) {
-        float: none;
         line-height: 1.6;
-        margin-top: 6px;
+        margin-top: 4px;
+        margin-bottom: 8px;
 
         a { margin-left: 0; margin-right: 18px; }
     }
