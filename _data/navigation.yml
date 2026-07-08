@@ -1,0 +1,16 @@
+header:
+  - titles:
+      en: Home
+    url: /
+  - titles:
+      en: Archive
+    url: /archive.html
+  - titles:
+      en: About
+    url: /about.html
+
+docs-en:
+  - title: Blog
+    children:
+      - title: Archive
+        url: /archive.html
