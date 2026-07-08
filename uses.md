@@ -4,39 +4,66 @@ title: Uses
 permalink: /uses/
 ---
 
-Tools, apps and gear I reach for every day. Part of the [/uses](https://uses.tech) movement, so here's mine. Not a wishlist. Just what's open on my machine most days.
+Tools, apps and gear I reach for. Part of the [/uses](https://uses.tech) movement, so here's mine. Not a wishlist. What I actually use.
 
 ## Editor + Terminal
 
-- **VS Code** — main editor, with Laravel and PHP extensions doing the heavy lifting.
-- **PhpStorm** — when a refactor gets serious.
-- **iTerm2 + zsh** — terminal I've barely reconfigured in years, because it works.
-- **Laravel Herd** — local PHP sites without babysitting a stack.
-
-## Languages + Frameworks
-
-- **PHP + Laravel** — home base.
-- **Livewire + Filament** — when the admin side needs to move fast.
-- **Vue, React, Node** — front end, and small services where they earn their place.
-- **Tailwind CSS** — because writing the same custom CSS twice is a tax I stopped paying.
-
-## Cloud + Infrastructure
-
-- **AWS** — Lambda, S3, DynamoDB, API Gateway, SQS and SNS for the serious work.
-- **CloudWatch + IAM** — to see what's happening and keep it locked down.
-- **VPS + a deploy script** — for smaller projects, this still beats a control plane I have to think about.
-
-## Apps + Tools
-
-- **Git + GitHub** — everything, down to notes I don't want to lose.
+- **Warp** — my terminal.
+- **Antigravity Terminal**
+- **PhpStorm** — where I write most code.
+- **Antigravity IDE**
+- **Homebrew** — everything on the Mac starts here.
 - **TablePlus** — databases.
-- **Postman** — poking APIs.
-- **My own skills and scripts** — a pile built up over the years so the boring parts run themselves.
+- **Firefox**
 
-## Hardware
+## AI
 
-- **Mac** — the machine.
-- **External monitor** — the second pair of eyes.
-- **A mechanical keyboard** — one I'm quietly attached to.
+- **Claude Code** — AI right in the terminal. Does a lot of the heavy lifting now.
+- **Claude Desktop**
 
-That's the setup. The work is in the head and the repo, not the desk.
+## Hosting + Infrastructure
+
+- **Laravel Forge** — I don't enjoy setting up servers or editing nginx configs. I find it confusing and tedious, so I hand it to Forge and move on.
+- **Digital Ocean** — every project I run lives here. The docs and tutorials alone are worth it.
+- **Cloudflare**
+
+## Cameras
+
+- **Sony FX6**
+- **Canon R6**
+- **Canon R8**
+- **Logitech Brio 4K** — the webcam for calls and quick recordings.
+- A few prime lenses and a cine lens.
+
+## Video + Photo Editing
+
+- **DaVinci Resolve** — main edit and color.
+- **DaVinci Resolve Micro Color Panel** — grading by hand beats grading with a mouse.
+- **Premiere Pro**
+- **After Effects**
+- **Photoshop**
+- **TourBox Elite** — one-handed controller for editing.
+
+## Audio + Screencasting
+
+- **ScreenFlow** — screen recording and editing.
+- **Shure SM7B** — the mic, with a Fethead inline preamp.
+- **Focusrite 2i2** — audio interface for the SM7B.
+- **Heil PL-2T** — boom arm.
+- **Auphonic** — audio post.
+- **Simplecast** — podcast hosting.
+- **Vimeo** — video hosting.
+
+## Desk + Hardware
+
+- **Apple MacBook Pro (2023)** — M3 Max, 16 inch, 36GB RAM, 1TB SSD.
+- **Magic Mouse**
+
+## Gaming
+
+- **PS5**
+- **Xbox Series X**
+
+---
+
+There's plenty more I use that didn't make this list. I'll put those up someday, probably with the embarrassing backstory each one deserves.
