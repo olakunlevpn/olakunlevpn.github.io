@@ -1,0 +1,116 @@
+// Header nav
+.site-nav {
+    float: right;
+    line-height: 56px;
+
+    a {
+        color: $text-color;
+        margin-left: 20px;
+        text-decoration: none;
+        font-size: $small-font-size;
+
+        &:hover { color: $title-color; }
+    }
+
+    @include media-query($on-palm) {
+        float: none;
+        line-height: 1.6;
+        margin-top: 6px;
+
+        a { margin-left: 0; margin-right: 18px; }
+    }
+}
+
+// Centered "about me" profile card (homepage)
+.profile {
+    max-width: 480px;
+    margin: ($spacing-unit * 1.5) auto ($spacing-unit * 2);
+    text-align: center;
+}
+
+.profile-avatar {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    margin-bottom: -66px;
+    background: #fff;
+    border: 5px solid #fff;
+    box-shadow: 0 0 0 5px $grey-color-light;
+}
+
+.profile-card {
+    background: #fff;
+    border: 1px solid $grey-color-light;
+    border-radius: 6px;
+    padding: 82px $spacing-unit $spacing-unit;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.profile-name {
+    color: $title-color;
+    font-size: 1.6em;
+    line-height: 1.2;
+    margin: 0 0 4px;
+}
+
+.profile-role {
+    color: $grey-color;
+    font-size: $small-font-size;
+    margin: 0;
+}
+
+.profile-row {
+    border-top: 1px solid $grey-color-light;
+    margin-top: ($spacing-unit * 0.8);
+    padding-top: ($spacing-unit * 0.8);
+
+    p {
+        margin: 0;
+        line-height: 1.6;
+        font-size: $small-font-size;
+        color: $text-color;
+    }
+}
+
+.profile-interests {
+    color: $grey-color-dark;
+}
+
+.profile-social {
+    a {
+        display: inline-block;
+        margin: 0 11px;
+        line-height: 0;
+
+        svg {
+            width: 22px;
+            height: 22px;
+            transition: transform 0.15s ease;
+        }
+
+        &:hover svg { transform: translateY(-2px); }
+    }
+}
+
+.profile-actions {
+    .profile-btn {
+        display: inline-block;
+        padding: 9px 30px;
+        border: 1px solid $grey-color;
+        border-radius: 4px;
+        color: $text-color;
+        text-decoration: none;
+        font-size: $small-font-size;
+        letter-spacing: 0.02em;
+        transition: all 0.15s ease;
+
+        &:hover {
+            background: $title-color;
+            border-color: $title-color;
+            color: #fff;
+        }
+    }
+}
