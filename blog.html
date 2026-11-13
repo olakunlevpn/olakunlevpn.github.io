@@ -23,7 +23,10 @@ permalink: /blog/
 				</header>
 
 				<div class="entry-content">
-					{{ post.content }}
+					{{ post.excerpt }}
+					<p class="read-more-wrapper">
+						<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read full story &rarr;</a>
+					</p>
 				</div>
 			</article>
 		</li>
