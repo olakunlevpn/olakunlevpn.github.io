@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Six skills so your features actually connect"
-date:   2026-11-13 21:30:00 +0100
+date:   2026-11-13 21:00:00 +0100
 tags: Architecture Testing Workflow Skills
 ---
 
