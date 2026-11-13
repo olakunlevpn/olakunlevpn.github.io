@@ -126,7 +126,11 @@
 	<!-- Preconnect & Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel='stylesheet' id='libretto-fonts-css' href='https://fonts.googleapis.com/css?family=Libre+Baskerville%3A400%2C700%2C400italic%7CPlayfair+Display%3A400%2C700%2C400italic%2C700italic%7CPlayfair+Display+SC%3A700%2C700italic%7CMontserrat%3A400%7CDroid+Sans+Mono%3A400&#038;subset=latin%2Clatin-ext' type='text/css' media='all'>
+	<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic|Playfair+Display:400,700,400italic,700italic|Playfair+Display+SC:700,700italic|Montserrat:400|Droid+Sans+Mono:400&subset=latin,latin-ext&display=swap">
+	<link rel="stylesheet" id="libretto-fonts-css" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic|Playfair+Display:400,700,400italic,700italic|Playfair+Display+SC:700,700italic|Montserrat:400|Droid+Sans+Mono:400&subset=latin,latin-ext&display=swap" media="print" onload="this.media='all'">
+	<noscript>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic|Playfair+Display:400,700,400italic,700italic|Playfair+Display+SC:700,700italic|Montserrat:400|Droid+Sans+Mono:400&subset=latin,latin-ext&display=swap">
+	</noscript>
 
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 </head>
