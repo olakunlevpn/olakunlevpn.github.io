@@ -95,7 +95,7 @@ article {
         border: 1px solid #d9d6d0;
         border-radius: 50%;
         box-shadow: 0 0 0 4px #faf9f5;
-        color: #a09a92;
+        color: $grey-color;
         content: "p";
         display: inline-block;
         font-family: libretto-icons;
@@ -320,7 +320,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: currentColor;
         }
     }
 }

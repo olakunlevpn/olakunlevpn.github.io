@@ -57,6 +57,7 @@
     border-radius: 6px;
     padding: 82px $spacing-unit $spacing-unit;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    color: $text-color;
 }
 
 .profile-name {
@@ -86,11 +87,12 @@
 }
 
 .profile-interests {
-    color: $grey-color-dark;
+    color: $grey-color;
 }
 
 .profile-social {
     a {
+        color: $brand-color;
         display: inline-block;
         margin: 0 11px;
         line-height: 0;
@@ -99,9 +101,16 @@
             width: 22px;
             height: 22px;
             transition: transform 0.15s ease;
+
+            path {
+                fill: currentColor;
+            }
         }
 
-        &:hover svg { transform: translateY(-2px); }
+        &:hover {
+            color: $title-color;
+            svg { transform: translateY(-2px); }
+        }
     }
 }
 
