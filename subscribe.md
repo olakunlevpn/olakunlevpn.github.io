@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Subscribe
+description: Subscribe to Olakunlevpn's technical newsletter for updates on software engineering, Laravel, cloud deployments, and agent skills.
 permalink: /subscribe/
 ---
 

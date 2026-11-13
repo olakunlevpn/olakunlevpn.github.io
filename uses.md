@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Uses
+description: Tools, applications, hardware, and developer setup used daily by Olakunlevpn for software engineering and creative work.
 permalink: /uses/
 ---
 
