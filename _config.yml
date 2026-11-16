@@ -20,3 +20,10 @@ include:
   - .well-known
 
 future: true
+
+# Comments via Utterances
+utterances:
+  repo: olakunlevpn/olakunlevpn.github.io
+  issue_term: pathname
+  label: comment
+  theme: github-light

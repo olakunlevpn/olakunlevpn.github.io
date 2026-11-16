@@ -18,6 +18,10 @@ layout: default
 
 </article>
 
+{% if site.utterances.repo and page.comments != false %}
+{% include comments.html %}
+{% endif %}
+
 <div id="post-nav">
 	<div class="next">
 		{% if page.next.url %}

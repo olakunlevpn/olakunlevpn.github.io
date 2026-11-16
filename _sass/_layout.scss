@@ -332,3 +332,17 @@
 .error {
     text-align: center;
 }
+
+/**
+ * Comments (Utterances)
+ */
+.comments-area {
+    margin-top: $spacing-unit * 1.5;
+    margin-bottom: $spacing-unit * 1.5;
+    padding-top: $spacing-unit;
+    border-top: 1px solid $grey-color-light;
+
+    .utterances {
+        max-width: 100%;
+    }
+}
