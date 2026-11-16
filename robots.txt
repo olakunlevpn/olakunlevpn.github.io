@@ -6,4 +6,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://olakunlevpn.github.io/sitemap.xml
-Agentmap: https://olakunlevpn.github.io/.well-known/ard.json
+# Agentmap: https://olakunlevpn.github.io/.well-known/ard.json
