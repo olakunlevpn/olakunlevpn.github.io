@@ -16,11 +16,11 @@ layout: default
 		{{ content }}
 	</div>
 
-</article>
+	{% if site.utterances.repo and page.comments != false %}
+	{% include comments.html %}
+	{% endif %}
 
-{% if site.utterances.repo and page.comments != false %}
-{% include comments.html %}
-{% endif %}
+</article>
 
 <div id="post-nav">
 	<div class="next">
