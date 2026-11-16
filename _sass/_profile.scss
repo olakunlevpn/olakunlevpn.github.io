@@ -39,8 +39,10 @@
 }
 
 .profile-avatar {
+    display: inline-block;
     width: 132px;
     height: 132px;
+    aspect-ratio: 1 / 1;
     border-radius: 50%;
     object-fit: cover;
     position: relative;
