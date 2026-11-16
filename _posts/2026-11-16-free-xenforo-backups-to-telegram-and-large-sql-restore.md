@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Free XenForo backups to Telegram and the missing restore button"
-date:   2026-11-16 15:30:00 +0100
+date:   2026-11-16 12:00:00 +0100
 tags: XenForo PHP DevOps Backups DisasterRecovery
 ---
 

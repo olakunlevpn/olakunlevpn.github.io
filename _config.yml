@@ -18,3 +18,5 @@ plugins:
 
 include:
   - .well-known
+
+future: true
