@@ -143,6 +143,12 @@
     display: block;
     font-family: "Playfair Display";
     font-size: 44px;
+    color: $title-color;
+    transition: color 0.15s ease;
+
+    &:hover {
+        color: darken($title-color, 12%);
+    }
 
     @include media-query($on-palm) {
         font-size: 1.1em;
@@ -287,6 +293,11 @@
     a {
         color: $grey-color;
         font-style: italic;
+        transition: color 0.15s ease;
+
+        &:hover {
+            color: $title-color;
+        }
     }
 }
 

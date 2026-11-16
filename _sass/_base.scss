@@ -57,6 +57,23 @@ article {
             font-size: 80%;
         }
 
+        a {
+            color: $title-color;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-thickness: 1px;
+            transition: color 0.15s ease, text-decoration-color 0.15s ease;
+
+            &:hover {
+                color: darken($title-color, 12%);
+                text-decoration-color: darken($title-color, 12%);
+            }
+        }
+
+        a.read-more {
+            text-decoration: none;
+        }
+
         &:first-letter {
             color: #b7b1a9;
             display: inline-block;
@@ -322,5 +339,25 @@ pre {
         path {
             fill: currentColor;
         }
+    }
+}
+
+.entry-content,
+.post-content {
+    a {
+        color: $title-color;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        text-decoration-thickness: 1px;
+        transition: color 0.15s ease, text-decoration-color 0.15s ease;
+
+        &:hover {
+            color: darken($title-color, 12%);
+            text-decoration-color: darken($title-color, 12%);
+        }
+    }
+
+    a.read-more {
+        text-decoration: none;
     }
 }
