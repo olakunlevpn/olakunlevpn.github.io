@@ -266,24 +266,38 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    font-size: 14px;
 }
 
 code {
-    padding: 1px 5px;
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 85%;
+    white-space: break-spaces;
+    background-color: rgba(175, 184, 193, 0.2);
+    border-radius: 6px;
+    color: #24292f;
 }
 
 pre {
-    padding: 8px 12px;
+    padding: 16px;
     overflow-x: auto;
+    font-size: 14px;
+    line-height: 1.45;
+    background-color: #f6f8fa;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    color: #24292f;
 
     > code {
         border: 0;
-        padding-right: 0;
-        padding-left: 0;
+        background-color: transparent;
+        padding: 0;
+        margin: 0;
+        font-size: 100%;
+        color: inherit;
+        white-space: pre;
     }
 }
 
