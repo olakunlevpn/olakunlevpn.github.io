@@ -14,6 +14,20 @@ permalink: /llms.txt
 - X/Twitter: https://twitter.com/oxkunle
 - LinkedIn: https://www.linkedin.com/in/olakunlevpn/
 
+## AI Agent & WebMCP Access
+This site provides native WebMCP (Web Model Context Protocol) browser tools and JSON endpoints for autonomous browsing agents:
+- **WebMCP Discovery:** {{ site.url }}/api/webmcp/index.json
+- **Search Endpoint:** {{ site.url }}/search.json
+- **Posts Feed:** {{ site.url }}/api/posts.json
+- **Agentic Resource Discovery (ARD):** {{ site.url }}/.well-known/ard.json
+- **Full Text LLM Index:** {{ site.url }}/llms-full.txt
+- **Supported WebMCP Tools:**
+  - `searchBlog`: Query technical articles, tutorials, and engineering notes
+  - `getPost`: Retrieve clean structured article content and metadata
+  - `getRecentPosts`: Retrieve latest published articles
+  - `getAuthorBio`: Retrieve developer profile, stack, and social channels
+  - `listSkills`: Retrieve catalog of published autonomous agent skills
+
 ## Agent Skills & Architecture Principles
 - [Scaling Discipline](https://github.com/olakunlevpn/olakunlevpn-scaling-discipline): Architectural standards for predictable software under scale.
 - [Diataxis Framework](https://github.com/olakunlevpn/olakunlevpn-diataxis-framework): Systematic documentation architecture for tutorials, guides, reference, and explanation.

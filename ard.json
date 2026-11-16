@@ -1,0 +1,378 @@
+{
+  "$schema": "https://agentic-resource-discovery.org/schemas/v1/manifest.json",
+  "specVersion": "1.0.0",
+  "entries": [
+    {
+      "identifier": "urn:air:olakunlevpn.github.io:mcp:blog",
+      "displayName": "Olakunlevpn Blog WebMCP Service",
+      "description": "Exposes Model Context Protocol (WebMCP) endpoints and browser tools to search technical articles, retrieve post contents, browse architecture principles, and query autonomous agent skills.",
+      "type": "mcp",
+      "url": "https://olakunlevpn.github.io/api/webmcp/index.json",
+      "representativeQueries": [
+        "search xenforo backup and restore guides",
+        "find laravel and php performance articles",
+        "read latest software engineering blog posts",
+        "lookup open source tools and agent skills by olakunlevpn"
+      ],
+      "capabilities": [
+        "search-blog",
+        "get-post",
+        "get-recent-posts",
+        "list-skills",
+        "get-author-bio"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:scaling-discipline",
+      "displayName": "Scaling Discipline Skills",
+      "description": "Architectural standards and verification gates for building predictable software systems that scale under load.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-scaling-discipline",
+      "representativeQueries": [
+        "how to scale software systems",
+        "architecture scaling rules",
+        "system reliability under load"
+      ],
+      "capabilities": [
+        "scaling-audit",
+        "architecture-discipline"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:flow-check",
+      "displayName": "Flow Check Skills",
+      "description": "Exhaustive end-to-end seam verification ensuring features connect properly between client interactions and backend endpoints.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-flow-check",
+      "representativeQueries": [
+        "trace feature flow end to end",
+        "is feature wired",
+        "check client server seam"
+      ],
+      "capabilities": [
+        "flow-check",
+        "seam-verification"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:flow-soundness",
+      "displayName": "Flow Soundness Skills",
+      "description": "Regression prevention protocols that lock in verified flows with dedicated automated test coverage.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-flow-soundness",
+      "representativeQueries": [
+        "prevent regressions in flow",
+        "lock in working feature with tests",
+        "flow soundness verification"
+      ],
+      "capabilities": [
+        "flow-soundness",
+        "regression-guard"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:seam-contract",
+      "displayName": "Seam Contract Skills",
+      "description": "Single source of truth wire contracts preventing frontend and backend data structure drift.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-seam-contract",
+      "representativeQueries": [
+        "prevent API contract drift",
+        "client server wire typecheck",
+        "single source of truth contract"
+      ],
+      "capabilities": [
+        "seam-contract",
+        "typecheck-gate"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:safe-bug-fix",
+      "displayName": "Safe Bug Fix Skills",
+      "description": "Scoped, evidence-based debugging protocols preventing regressions in shared and reused code.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-safe-bug-fix",
+      "representativeQueries": [
+        "fix bug safely without regressions",
+        "safe bug fix evidence",
+        "debug shared codebase"
+      ],
+      "capabilities": [
+        "safe-bug-fix",
+        "regression-prevention"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:meta-cognitive-verification",
+      "displayName": "Meta-Cognitive Verification Skills",
+      "description": "Rigorous multi-step self-correction and fact-checking protocols for autonomous agents.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-meta-cognitive-verification",
+      "representativeQueries": [
+        "meta cognitive self verification",
+        "autonomous agent self correction",
+        "reasoning verification gate"
+      ],
+      "capabilities": [
+        "meta-verification",
+        "reasoning-audit"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:root-cause-skills",
+      "displayName": "Root-Cause Discipline Skills",
+      "description": "Deep diagnostic protocols identifying underlying system failures before applying codebase fixes.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-root-cause-skills",
+      "representativeQueries": [
+        "root cause analysis for bugs",
+        "diagnose system error",
+        "underlying cause diagnosis"
+      ],
+      "capabilities": [
+        "root-cause-analysis",
+        "deep-diagnostics"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:diataxis-framework",
+      "displayName": "Diataxis Framework Skills",
+      "description": "Systematic documentation architecture for tutorials, how-to guides, reference documentation, and explanations.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-diataxis-framework",
+      "representativeQueries": [
+        "diataxis documentation architecture",
+        "structure technical documentation",
+        "four quadrants documentation"
+      ],
+      "capabilities": [
+        "diataxis-authoring",
+        "docs-audit"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:artifact-skills",
+      "displayName": "Artifact Skills",
+      "description": "Polished standalone HTML artifact production for implementation plans, explainers, reviews, and reports.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-artifact-skills",
+      "representativeQueries": [
+        "generate interactive HTML artifact",
+        "design system for markdown artifacts",
+        "artifact report explainer"
+      ],
+      "capabilities": [
+        "artifact-builder",
+        "generative-ui"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:clean-export-skills",
+      "displayName": "Clean Project Export Skills",
+      "description": "Sanitized codebase packaging, asset stripping, and production distribution standards.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-clean-export-skills",
+      "representativeQueries": [
+        "clean project export",
+        "sanitize codebase distribution",
+        "prepare repo for export"
+      ],
+      "capabilities": [
+        "clean-export",
+        "repo-packaging"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:laravel-skills",
+      "displayName": "Laravel Coding Standards Skills",
+      "description": "Production-grade Laravel standards, eloquent models, migrations, service boundaries, and design patterns.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-laravel-skills",
+      "representativeQueries": [
+        "laravel best practices and standards",
+        "laravel eloquent architecture",
+        "laravel backend patterns"
+      ],
+      "capabilities": [
+        "laravel-standards",
+        "php-architecture"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:filament-skills",
+      "displayName": "Filament PHP v5 Skills",
+      "description": "Development and refactoring standards for Filament PHP v5 admin resources, forms, tables, and actions.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-filament-skills",
+      "representativeQueries": [
+        "filament php v5 standards",
+        "filament admin resource forms",
+        "filament table actions"
+      ],
+      "capabilities": [
+        "filament-v5",
+        "admin-panel-architecture"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:git-skills",
+      "displayName": "Git Workflow Standards Skills",
+      "description": "Clean git workflows, atomic branching, conventional commits, and merge hygiene.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-git-skills",
+      "representativeQueries": [
+        "clean git commit hygiene",
+        "atomic git branching strategy",
+        "conventional commit standards"
+      ],
+      "capabilities": [
+        "git-workflow",
+        "commit-hygiene"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:deployment-skills",
+      "displayName": "Laravel Deployment Skills",
+      "description": "Zero-downtime deployment practices, Forge automation, and cloud server provisioning on AWS.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-deployment-skills",
+      "representativeQueries": [
+        "laravel zero downtime deployment",
+        "aws cloud server deployment",
+        "laravel forge deployment runbook"
+      ],
+      "capabilities": [
+        "deployment-runbook",
+        "aws-provisioning"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:react-skills",
+      "displayName": "React & Next.js Skills",
+      "description": "Modern React and Next.js development with reactive state flow, server components, and custom hooks.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-react-skills",
+      "representativeQueries": [
+        "react nextjs best practices",
+        "unidirectional state flow hooks",
+        "nextjs server component architecture"
+      ],
+      "capabilities": [
+        "react-architecture",
+        "nextjs-patterns"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:frontend-first-skills",
+      "displayName": "Design-First Frontend Skills",
+      "description": "UI/UX design system implementation, accessible components, and responsive frontends.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-frontend-first-skills",
+      "representativeQueries": [
+        "design first frontend architecture",
+        "accessible responsive UI components",
+        "modern web styling"
+      ],
+      "capabilities": [
+        "frontend-design",
+        "ui-systems"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:meta-verify",
+      "displayName": "Meta-Verify Skills",
+      "description": "Comprehensive multi-angle auditing gating definition-of-done on executed proof and evidence.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-meta-verify",
+      "representativeQueries": [
+        "gate done on evidence",
+        "multi angle code verification",
+        "execution proof audit"
+      ],
+      "capabilities": [
+        "meta-verify",
+        "evidence-gating"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:human-writing",
+      "displayName": "Human Writing Skills",
+      "description": "Authentic, clear technical writing protocols stripping synthetic AI patterns and clichés.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-human-writing",
+      "representativeQueries": [
+        "write authentic human copy",
+        "strip AI writing patterns",
+        "clear human technical communication"
+      ],
+      "capabilities": [
+        "human-writing",
+        "style-curation"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:interaction-map",
+      "displayName": "Interaction Map Skills",
+      "description": "Pre-implementation design mapping user interaction states, server execution chains, and wire shapes.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-interaction-map",
+      "representativeQueries": [
+        "design user interaction flow before code",
+        "map interaction states",
+        "wire contract spec"
+      ],
+      "capabilities": [
+        "interaction-map",
+        "flow-design"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:framework-first",
+      "displayName": "Framework First Skills",
+      "description": "Leveraging framework built-ins and standard primitives before introducing custom abstractions.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-framework-first",
+      "representativeQueries": [
+        "write idiomatic framework code",
+        "avoid custom framework abstractions",
+        "framework first architecture"
+      ],
+      "capabilities": [
+        "framework-first",
+        "idiomatic-code"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:local-source-of-truth",
+      "displayName": "Local Source of Truth Skills",
+      "description": "Single state authority patterns ensuring production stability by avoiding straight-to-server edits.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-local-source-of-truth",
+      "representativeQueries": [
+        "single source of truth code management",
+        "prevent direct production edits",
+        "environment state authority"
+      ],
+      "capabilities": [
+        "local-source-of-truth",
+        "state-authority"
+      ]
+    },
+    {
+      "identifier": "urn:air:olakunlevpn:skills:blog-publishing",
+      "displayName": "Blog Publishing Skills",
+      "description": "Editorial standards, Jekyll static site publication runbooks, and cross-channel technical content distribution.",
+      "type": "application/vnd.agent-skill+json",
+      "url": "https://github.com/olakunlevpn/olakunlevpn-blog-publishing",
+      "representativeQueries": [
+        "jekyll blog publishing runbook",
+        "technical blog editorial workflow",
+        "static site deployment checklist"
+      ],
+      "capabilities": [
+        "blog-publishing",
+        "editorial-standards"
+      ]
+    }
+  ]
+}

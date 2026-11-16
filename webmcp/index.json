@@ -1,0 +1,57 @@
+---
+layout: null
+permalink: /webmcp/index.json
+---
+{
+  "$schema": "https://agentic-resource-discovery.org/schemas/v1/manifest.json",
+  "name": "Olakunlevpn Blog WebMCP",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (WebMCP) browser integration and endpoints for Olakunlevpn technical blog, software engineering notes, and autonomous AI agent skills.",
+  "service": {
+    "name": "Olakunlevpn Technical Blog",
+    "url": "https://olakunlevpn.github.io",
+    "author": "Olakunlevpn",
+    "repo": "https://github.com/olakunlevpn/olakunlevpn.github.io"
+  },
+  "endpoints": {
+    "search": "https://olakunlevpn.github.io/search.json",
+    "posts": "https://olakunlevpn.github.io/api/posts.json",
+    "ard": "https://olakunlevpn.github.io/.well-known/ard.json",
+    "llms": "https://olakunlevpn.github.io/llms.txt",
+    "llms_full": "https://olakunlevpn.github.io/llms-full.txt"
+  },
+  "tools": [
+    {
+      "name": "searchBlog",
+      "description": "Search blog posts, technical tutorials, and engineering notes by keyword.",
+      "parameters": {
+        "query": { "type": "string", "required": true, "description": "Search keywords" },
+        "limit": { "type": "number", "required": false, "default": 5, "description": "Max results to return (1-25)" }
+      }
+    },
+    {
+      "name": "getRecentPosts",
+      "description": "Retrieve latest published articles with title, date, excerpt, tags, and URL.",
+      "parameters": {
+        "limit": { "type": "number", "required": false, "default": 10, "description": "Max number of articles (1-25)" }
+      }
+    },
+    {
+      "name": "getPost",
+      "description": "Fetch clean structured article content and metadata for a specific post by URL or path.",
+      "parameters": {
+        "url": { "type": "string", "required": true, "description": "Post pathname or full URL" }
+      }
+    },
+    {
+      "name": "listSkills",
+      "description": "Retrieve all autonomous agent skills and architectural rules published by Olakunlevpn.",
+      "parameters": {}
+    },
+    {
+      "name": "getAuthorBio",
+      "description": "Retrieve author profile, engineering background, tech stack, and verified social contact links.",
+      "parameters": {}
+    }
+  ]
+}

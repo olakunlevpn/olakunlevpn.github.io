@@ -341,6 +341,7 @@
     margin-bottom: $spacing-unit * 1.5;
     padding-top: $spacing-unit;
     border-top: 1px solid $grey-color-light;
+    min-height: 280px;
 
     .utterances {
         max-width: 100%;

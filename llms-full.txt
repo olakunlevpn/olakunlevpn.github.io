@@ -1,0 +1,63 @@
+---
+permalink: /llms-full.txt
+---
+# Olakunlevpn (Full Documentation & Agent Index)
+
+> Technical blog, software engineering notes, and autonomous AI agent skills by Olakunlevpn.
+
+## About
+- Author: Olakunlevpn
+- Role: Software Engineer
+- Focus: Laravel, PHP, JavaScript, React, Next.js, Cloud (AWS), Autonomous AI Agent Architectures
+- Website: {{ site.url }}
+- GitHub: https://github.com/olakunlevpn
+- X/Twitter: https://twitter.com/oxkunle
+- LinkedIn: https://www.linkedin.com/in/olakunlevpn/
+
+## AI Agent & WebMCP Access
+This site provides native WebMCP (Web Model Context Protocol) browser tools and JSON endpoints for autonomous browsing agents:
+- **WebMCP Discovery:** {{ site.url }}/api/webmcp/index.json
+- **Search Endpoint:** {{ site.url }}/search.json
+- **Posts Feed:** {{ site.url }}/api/posts.json
+- **Agentic Resource Discovery (ARD):** {{ site.url }}/.well-known/ard.json
+- **Supported WebMCP Tools:**
+  - `searchBlog`: Query technical articles, tutorials, and engineering notes
+  - `getPost`: Retrieve clean structured article content and metadata
+  - `getRecentPosts`: Retrieve latest published articles
+  - `getAuthorBio`: Retrieve developer profile, stack, and social channels
+  - `listSkills`: Retrieve catalog of published autonomous agent skills
+
+## Agent Skills & Architecture Principles
+- [Scaling Discipline](https://github.com/olakunlevpn/olakunlevpn-scaling-discipline): Architectural standards for predictable software under scale.
+- [Diataxis Framework](https://github.com/olakunlevpn/olakunlevpn-diataxis-framework): Systematic documentation architecture for tutorials, guides, reference, and explanation.
+- [Flow Check](https://github.com/olakunlevpn/olakunlevpn-flow-check): End-to-end seam verification ensuring features connect across clients and servers.
+- [Flow Soundness](https://github.com/olakunlevpn/olakunlevpn-flow-soundness): Regression prevention locking in verified flows with dedicated tests.
+- [Seam Contract](https://github.com/olakunlevpn/olakunlevpn-seam-contract): Single source of truth wire contracts preventing frontend and backend drift.
+- [Safe Bug Fix](https://github.com/olakunlevpn/olakunlevpn-safe-bug-fix): Scoped, evidence-based debugging preventing regressions in shared code.
+- [Meta-Cognitive Verification](https://github.com/olakunlevpn/olakunlevpn-meta-cognitive-verification): Rigorous multi-step verification and self-correction rules.
+- [Root-Cause Discipline](https://github.com/olakunlevpn/olakunlevpn-root-cause-skills): Deep diagnosis protocols before applying codebase fixes.
+- [Artifact Skills](https://github.com/olakunlevpn/olakunlevpn-artifact-skills): Polished HTML artifact production for explainers, plans, and reports.
+- [Clean Project Export](https://github.com/olakunlevpn/olakunlevpn-clean-export-skills): Sanitized codebase packaging and distribution.
+- [Laravel Skills](https://github.com/olakunlevpn/olakunlevpn-laravel-skills): Production Laravel standards, models, migrations, and patterns.
+- [Filament PHP v5 Skills](https://github.com/olakunlevpn/olakunlevpn-filament-skills): Standards for Filament resources, relations, and forms.
+- [Git Skills](https://github.com/olakunlevpn/olakunlevpn-git-skills): Clean git workflows, conventional commits, and atomic branching.
+- [Deployment Skills](https://github.com/olakunlevpn/olakunlevpn-deployment-skills): Zero-downtime deployment practices and cloud infrastructure on AWS.
+- [React & Next.js Skills](https://github.com/olakunlevpn/olakunlevpn-react-skills): Reactive state patterns, hooks, and clean components.
+- [Design-First Frontend](https://github.com/olakunlevpn/olakunlevpn-frontend-first-skills): UI/UX design systems and responsive architecture.
+- [Human Writing](https://github.com/olakunlevpn/olakunlevpn-human-writing): Authentic, clear technical documentation and communication.
+- [Framework First](https://github.com/olakunlevpn/olakunlevpn-framework-first): Leveraging framework primitives before writing custom abstractions.
+- [Local Source of Truth](https://github.com/olakunlevpn/olakunlevpn-local-source-of-truth): Single state authority patterns.
+- [Blog Publishing](https://github.com/olakunlevpn/olakunlevpn-blog-publishing): Editorial and publication workflows.
+
+## Detailed Articles & Notes
+{% for post in site.posts %}
+### {{ post.title }}
+- **URL:** {{ site.url }}{{ post.url }}
+- **Date:** {{ post.date | date: "%B %d, %Y" }}
+{% if post.tags.size > 0 %}- **Tags:** {{ post.tags | join: ", " }}{% endif %}
+- **Summary:** {{ post.excerpt | strip_html | strip_newlines | truncate: 250 }}
+
+{{ post.content | strip_html | strip_newlines | truncatewords: 400 }}
+
+---
+{% endfor %}

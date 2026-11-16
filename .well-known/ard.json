@@ -1,6 +1,27 @@
 {
-  "specVersion": "0.9.1",
+  "$schema": "https://agentic-resource-discovery.org/schemas/v1/manifest.json",
+  "specVersion": "1.0.0",
   "entries": [
+    {
+      "identifier": "urn:air:olakunlevpn.github.io:mcp:blog",
+      "displayName": "Olakunlevpn Blog WebMCP Service",
+      "description": "Exposes Model Context Protocol (WebMCP) endpoints and browser tools to search technical articles, retrieve post contents, browse architecture principles, and query autonomous agent skills.",
+      "type": "mcp",
+      "url": "https://olakunlevpn.github.io/api/webmcp/index.json",
+      "representativeQueries": [
+        "search xenforo backup and restore guides",
+        "find laravel and php performance articles",
+        "read latest software engineering blog posts",
+        "lookup open source tools and agent skills by olakunlevpn"
+      ],
+      "capabilities": [
+        "search-blog",
+        "get-post",
+        "get-recent-posts",
+        "list-skills",
+        "get-author-bio"
+      ]
+    },
     {
       "identifier": "urn:air:olakunlevpn:skills:scaling-discipline",
       "displayName": "Scaling Discipline Skills",
@@ -276,7 +297,7 @@
     {
       "identifier": "urn:air:olakunlevpn:skills:human-writing",
       "displayName": "Human Writing Skills",
-      "description": "Authentic, clear technical writing protocols stripping synthetic AI patterns and clich\u00e9s.",
+      "description": "Authentic, clear technical writing protocols stripping synthetic AI patterns and clichés.",
       "type": "application/vnd.agent-skill+json",
       "url": "https://github.com/olakunlevpn/olakunlevpn-human-writing",
       "representativeQueries": [
